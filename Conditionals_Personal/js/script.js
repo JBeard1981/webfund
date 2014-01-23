@@ -53,3 +53,6 @@ else if (userAge>myAge)
 	alert("We are the same age. Lets do this!")
     console.log("We are the same age. Ok now I REALLY hope its a woman.")
 	}
+
+
+// section has been through testing and troubleshooting it works now!
