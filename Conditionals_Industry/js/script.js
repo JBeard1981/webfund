@@ -5,7 +5,7 @@
 var userName = prompt ("Please enter your name and click the ok button to continue.")
 
 // This section lets pops up an alert to let you know what is going on in this portion of the assignment. I decided to make it a little more personal with the use of the user name variable.
-alert ("Hello " + userName + "\nIn this portion of the assignment we are to \ncreate a javascrypt program that relates directly \nto our industry. I decided to make this relate \nto the pricing of pictures that I make for people on IMVU. \nthe user will be prompted to answer various yes or no questions. \nto determine how much their order will cost. \nPlease click ok to continue.")
+alert ("Hello " + userName + "\nIn this portion of the assignment we are to \ncreate a javascrypt program that relates directly \nto our industry. I decided to make this relate \nto the pricing of pictures that I make for people on IMVU. \nthe user will be prompted to input various values. \nto determine how much their order will cost, and how long it will take to produce. \nPlease click ok to continue.")
 
 // this prompt identifies the variable pNumber. The pNumber variable shows how many pictures the user is having me to create.
 var pNumber = prompt("How many pictures do you want me to make?");
@@ -48,3 +48,5 @@ console.log( "User Name: " + userName + "\nNumber of pictures: " + pNumber + "\n
 }else{
     console.log( "User Name: " + userName + "\nNumber of pictures: " + pNumber + "\nTime Needed to complete: " + time +"\nChance I will get distracted and delivery delayed: Low");
 }
+
+// Testing and troubleshooting complete. IT WORKS!
