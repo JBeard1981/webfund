@@ -21,7 +21,7 @@ if (userAge<myAge)
     // In this instance since my age is greater than the user age it is subtracting myAge from the user age
 	var diff = myAge - userAge;
 
-        if( diff>=18 ){
+        if( diff >= 14 ){
             // alert and console.log here are being used to display that the user age is so much less than mine that i would not consider dateing them.
             alert("You are a bit too young for me try again in a few years.");
             console.log("You are a bit too young for me try again in a few years.");
