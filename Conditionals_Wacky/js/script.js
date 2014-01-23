@@ -34,5 +34,4 @@ if(userGender=="M","m"){
     {
         x=alert("Please refresh page and try again.");
     }
-}else
 }
