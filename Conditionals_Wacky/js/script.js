@@ -18,10 +18,21 @@ if(userGender=="M","m"){
     var r=confirm("Are you sure?");
     if (r==true)
     {
-        x="Processing for male titles";
+        x=alert("Processing for Male titles");
     }
     else
     {
-        x="Please refresh page and try again.";
+        x=alert("Please refresh page and try again.");
     }
+}else{
+    var r=confirm("Are you sure?");
+    if (r==true)
+    {
+        x=alert("Processing for Female titles");
+    }
+    else
+    {
+        x=alert("Please refresh page and try again.");
+    }
+}else
 }
