@@ -6,32 +6,21 @@
 alert ("In this portion of the assignment we are to use javascrypt to create \nsomething wacky or off the wall. Therefor I decided to create \na short program to give you a fantasy title based on user input! \nPlease press enter or click the ok button to continue.");
 
 // This variable is to set the gender of the user to either male or female.
-var gender=new Array("Male","Female")
+var gender=new Array("nul","Male","Female")
 var myTitleMale=new Array("nul","Ranger","Lord", "King", "Knight", "Slave", "Monster", "Forge Master", "Overlord","Emperor", "Sage");
 var myTitleFemale=new Array("nul","Lady","Queen","High Queen","Mysterious","Mistress", "Princess", "Maiden","Ranger","Slave", "Knight")
 var ofThe=new Array("nul","Forsaken","Lost", "Beloved","Hated","Darkest","Holy","Monsterous","Deadly","Forgotten","Spastic");
 var myPlace=new Array("nul","Kingdom","Reaches","Empire","Army","Legion","Horde","Fairy Land","State","Hell","Heaven");
 var userName=prompt("Please input a name and hit enter.")
+var userGender=prompt("are you male or female.\nPlease enter either 1 for Male or 2 for Female.")
+var title=prompt("How many letters are in your first name?")
+    if (title>10 & userGender==1){
+        mytitle=myTitleMale[10]
+        alert(myTitleMale)
+    }else if (title>10 & userGender==2){
+        mytitle=myTitleFemale[10]
+        alert(myTitleFemale)
+    }else{
+        alert("need to know your gender before continueing.\nPlease refresh and try again)
+    }
 
-var userGender=prompt("are you male or female.\nPlease enter either M or F")
-if(userGender=="M","m"){
-    var r=confirm("Are you sure?");
-    if (r==true)
-    {
-        x=alert("Processing for Male titles");
-    }
-    else
-    {
-        x=alert("Please refresh page and try again.");
-    }
-}else{
-    var r=confirm("Are you sure?");
-    if (r==true)
-    {
-        x=alert("Processing for Female titles");
-    }
-    else
-    {
-        x=alert("Please refresh page and try again.");
-    }
-}
