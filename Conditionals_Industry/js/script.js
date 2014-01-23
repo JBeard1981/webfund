@@ -40,9 +40,9 @@ if (pNumber == 0)
 }
 
 // this console.log is set to display a summary of all the information provided by the user into the console
-if (time<80){
+if (time>80){
 console.log( "User Name: " + userName + "\nNumber of pictures: " + pNumber + "\nTime Needed to complete: " + time +"\nChance I will get distracted and delivery delayed: High");
-}else if (time<50)
+}else if (time>50)
 {
     console.log( "User Name: " + userName + "\nNumber of pictures: " + pNumber + "\nTime Needed to complete: " + time +"\nChance I will get distracted and delivery delayed: Medium");
 }else{
