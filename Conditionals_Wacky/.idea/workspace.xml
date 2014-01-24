@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wacky.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wacky.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wacky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="255">
+            <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20673813" vertical-offset="0" max-vertical-offset="653">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="409" selection-end="409" vertical-scroll-proportion="0.11078287" vertical-offset="0" max-vertical-offset="677">
+            <state line="2" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/wacky.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/wacky.html" />
       </list>
     </option>
   </component>
@@ -118,7 +118,7 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Expressions_Personal" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rpsite/test" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -247,13 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wacky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
@@ -261,7 +254,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="409" selection-end="409" vertical-scroll-proportion="0.11078287" vertical-offset="0" max-vertical-offset="677">
+        <state line="2" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wacky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20673813" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>

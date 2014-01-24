@@ -2,25 +2,19 @@
 
 
 
-// This section lets pops up an allert to let you know what is going on in this portion of the assignment. This is essentially what I did last time. However I am going to change the code to get a completely different outcome in a different way. //
-alert ("In this portion of the assignment we are to use javascrypt to create \nsomething wacky or off the wall. Therefor I decided to create \na short program to give you a fantasy title based on user input! \nPlease press enter or click the ok button to continue.");
-
-// This variable is to set the gender of the user to either male or female.
-var gender=new Array("nul","Male","Female")
-var myTitleMale=new Array("nul","Ranger","Lord", "King", "Knight", "Slave", "Monster", "Forge Master", "Overlord","Emperor", "Sage");
-var myTitleFemale=new Array("nul","Lady","Queen","High Queen","Mysterious","Mistress", "Princess", "Maiden","Ranger","Slave", "Knight")
-var ofThe=new Array("nul","Forsaken","Lost", "Beloved","Hated","Darkest","Holy","Monsterous","Deadly","Forgotten","Spastic");
-var myPlace=new Array("nul","Kingdom","Reaches","Empire","Army","Legion","Horde","Fairy Land","State","Hell","Heaven");
-var userName=prompt("Please input a name and hit enter.")
-var userGender=prompt("are you male or female.\nPlease enter either 1 for Male or 2 for Female.")
-var title=prompt("How many letters are in your first name?")
-    if (title>10 & userGender==1){
-        mytitle=myTitleMale[10]
-        alert(myTitleMale)
-    }else if (title>10 & userGender==2){
-        mytitle=myTitleFemale[10]
-        alert(myTitleFemale)
-    }else{
-        alert("need to know your gender before continueing.\nPlease refresh and try again)
-    }
-
+function myFunction()
+{
+    var myTitle=new Array("nul","Ranger","Lord", "King", "Knight", "Slave", "Monster", "Forge Master", "Overlord","Emperor", "Sage");
+    var ofThe=new Array("nul","Forsaken","Lost", "Beloved","Hated","Darkest","Holy","Monsterous","Deadly","Forgotten","Spastic");
+    var myPlace=new Array("nul","Kingdom","Reaches","Empire","Army","Legion","Horde","Fairy Land","State","Hell","Heaven");
+    var pName=prompt ("make up a name")
+    var myName=prompt("enter your real first name");
+    var myLname=prompt ("Enter your real last name");
+    var ranNum=prompt("enter a number between 1 and 10");
+    var str=myName;
+    var stre=myLname;
+    var n=str.length;
+    var m=stre.length;
+    alert("you shall forever be know as "+pName+" "+ myTitle[n] +" of the " + ofThe[m]+" " + myPlace[ranNum]);
+    console.log ("Your Fantasy title is... " + pName + " " + myTitle[n] + " of the " + ofThe[m] + " " + myPlace[ranNum]);
+}
