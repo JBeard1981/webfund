@@ -1,6 +1,9 @@
-// Jonathan Beard, Expressions assignment part 3 "Wacky" date completed Thursday, January 16, 2014
+// Jonathan Beard, Expressions assignment part 3 "Wacky" date completed Thursday, January 23, 2014
 
-
+//well I must say this one was a bit of a pain in the rear. Established my function here in the javascrpyt everything works.
+//I was unable to figure out how to call out the function in the javascrypt itself but did find something that worked in the form
+//of a button added into the html file. In short it does the same thing as before however this time it uses a function to determine
+//what to put in for each section of the title rather than the user having to input the values themselves.
 
 function myFunction()
 {
