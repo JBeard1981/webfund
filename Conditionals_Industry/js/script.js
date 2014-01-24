@@ -19,27 +19,28 @@ var price = 600;
 // the variable timeNeeded is used to calculate how long it takes me to code the number of pages asked for.
 var totalCost = price * pNumber;
 
-// this if else statement is used to choose between two statements depending on the result of the timeNeeded calculation.
-if (pNumber == 0)
+// this if else else if statement is used to choose between various possible resuts depending upon how many images i am to create for the user.
+if (pNumber == 0) //if 0 images are to be created this is exicuted
 {
-    // if the time needed is 0 then 0 was put into the pageNumber prompt. Since the page number is 0 then i can not code what the user does not wish to exist. I used alert to print out to the user and console.log to print to the console.
+    // if the pictures request is 0 then the following will be printed to the console via console.log and to the user via alert.
     alert ("Ok I guess you don't want any work done then. Thank you for visiting.");
     console.log ("Guess they didn't want anything after all.");
 }
- else if (pNumber==1)
+ else if (pNumber==1)// this code will be exictued if only one picture is to be created.
 {
-    // if the time needed is more than 0 then this will prompt a message to be posted both to the user via alert and the console via console.log displaying the proper message
+    // if only one image is to be created then the following will be printed to the console via console.log and to the user via alert.
     alert("This isn't going to take long. Your cost will be " + totalCost + "cr." );
     console.log("This isn't going to take long. Your cost will be " + totalCost + "cr." );
-}else if(pNumber >= 10){
+}else if(pNumber >= 10){//this code is only to be implimented if ten or more images are requested
+    // if ten or more images are to be created then the following will be printed to the console via console.log and to the user via alert.
     alert("This is a big order. Your cost will be " + totalCost + "cr. It is going to take me a while to do this many pictures." );
     console.log("This is a big order. Your cost will be " + totalCost + "cr. It is going to take me a while to do this many pictures." );
-}else {
+}else {//if anything less than ten images or more than 1 image is requested then the following code will print out the cost and time required for the images to the user via alert and the console with console.log
     alert("Your total cost will be " + totalCost + "cr. It should take me about " + time + "minutes to complete your order. Provided that I do not run into any big issues." );
     console.log("Your total cost will be " + totalCost + "cr. It should take me about " + time + "minutes to complete your order. Provided that I do not run into any big issues." );
 }
 
-// this console.log is set to display a summary of all the information provided by the user into the console
+// this console.log is set to display a summary of all the information provided by the user into the console the message varries depending on how long it wil take me to complete the task given.
 if (time>80){
 console.log( "User Name: " + userName + "\nNumber of pictures: " + pNumber + "\nTime Needed to complete: " + time +"\nChance I will get distracted and delivery delayed: High");
 }else if (time>50)
