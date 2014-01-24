@@ -26,7 +26,7 @@
       <file leaf-file-name="wacky.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wacky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20673813" vertical-offset="0" max-vertical-offset="653">
+            <state line="16" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="0.36753446" vertical-offset="0" max-vertical-offset="653">
               <folding />
             </state>
           </provider>
@@ -96,6 +96,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Values_Variables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Values_Variables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_Wacky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Values_Variables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_Wacky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -261,7 +285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wacky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20673813" vertical-offset="0" max-vertical-offset="653">
+        <state line="16" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="0.36753446" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>

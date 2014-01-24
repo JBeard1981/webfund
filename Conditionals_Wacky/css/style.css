@@ -1,0 +1,11 @@
+/* CSS */
+
+body{
+    background-color: #FF0000;
+}
+section {
+    align: center;
+    max-width: 500px;
+    outline-width: 1px;
+    outline-style: double;
+}
