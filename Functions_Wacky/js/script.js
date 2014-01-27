@@ -30,39 +30,39 @@ function myMale()
     // this sets the variable m to equal the count of the characters in the stre variable
     var m=stre.length;
 
-    //this allerts the user via alert and posts to the console via console.log of the results of the function.
+    //this alerts the user via alert and posts to the console via console.log of the results of the function.
     alert("you shall forever be know as "+pName+" "+ myTitle[n] +" of the " + ofThe[m]+" " + myPlace[ranNum]);
     console.log ("Your Fantasy title is... " + pName + " " + myTitle[n] + " of the " + ofThe[m] + " " + myPlace[ranNum]);
 }
-//function myFemale()
-//{
-//    //this array is used to store the myTitle variable.
-//    var myTitle=new Array("nul","Ranger","Lady", "Queen", "Maiden", "Slave", "Mistress", "Demoness", "Princess","Empress", "Priestess");
+function myFemale()
+{
+    //this array is used to store the myTitle variable.
+    var myTitle=new Array("nul","Ranger","Lady", "Queen", "Maiden", "Slave", "Mistress", "Demoness", "Princess","Empress", "Priestess");
     //this array is used to store the ofThe variable.
-//    var ofThe=new Array("nul","Forsaken","Lost", "Beloved","Hated","Darkest","Holy","Monsterous","Deadly","Forgotten","Beautiful");
+    var ofThe=new Array("nul","Forsaken","Lost", "Beloved","Hated","Darkest","Holy","Monsterous","Deadly","Forgotten","Beautiful");
     //this array is used to store the myPlace variable.
-//    var myPlace=new Array("nul","Kingdom","Reaches","Empire","Army","Legion","Horde","Fairy Land","State","Hell","Heaven");
+    var myPlace=new Array("nul","Kingdom","Reaches","Empire","Army","Legion","Horde","Fairy Land","State","Hell","Heaven");
     // this variable prompts the user to input a made up name.
-//    var pName=prompt ("make up a name")
+    var pName=prompt ("make up a name")
     // this variable prompts the user to input their real first name
-//    var myName=prompt("enter your real first name");
+    var myName=prompt("enter your real first name");
     // this variable prompts the user to input their real last name
-//    var myLname=prompt ("Enter your real last name");
+    var myLname=prompt ("Enter your real last name");
     // this variable prompts the user to pick a number between 1 and ten
-//    var ranNum=prompt("Enter a number between 1 and 10");
+    var ranNum=prompt("Enter a number between 1 and 10");
     // this variable sets str to equal the variable myName
-//    var str=myName;
+    var str=myName;
     //this variable sets stre to equal the variable myLname
-//    var stre=myLname;
+    var stre=myLname;
     //this sets the varaible n to equal the count of caracters in the str variable
-//    var n=str.length;
+    var n=str.length;
     // this sets the variable m to equal the count of the characters in the stre variable
-//    var m=stre.length;
+    var m=stre.length;
 
     //this allerts the user via alert and posts to the console via console.log of the results of the function.
-//    alert console.log("you shall forever be know as "+pName+" "+ myTitle[n] +" of the " + ofThe[m]+" " + myPlace[ranNum]);
-    //console.log ("Your Fantasy title is... " + pName + " " + myTitle[n] + " of the " + ofThe[m] + " " + myPlace[ranNum]); //
-//}
+    alert ("you shall forever be know as "+pName+" "+ myTitle[n] +" of the " + ofThe[m]+" " + myPlace[ranNum]);
+    console.log ("Your Fantasy title is... " + pName + " " + myTitle[n] + " of the " + ofThe[m] + " " + myPlace[ranNum]); //
+}
 //function myAlignment()
 //{
     //this alert will give instructions on how to compleate the task.
