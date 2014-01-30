@@ -4,12 +4,28 @@
 
 
 // This section lets pops up an allert to let you know what is going on in this portion of the assignment //
-alert ("In this portion of the assignment we are to use javascrypt to create \nsomething that relates specifically to us. Therefor I decided to create \na short program to see how your age relates to my own. I realize that I did \nsomething very similar to this last week. However, \nI have added in a new twist... \nPlease press enter or click the ok button to continue.")
+alert ("In this portion of the assignment we are to use javascrypt to create \nsomething that relates specifically to us. Therefor I decided to create \na short program to tell you what I will do in the morning depending on the temprature. \nPlease press enter or click the ok button to continue.")
+myFunction ()
 
 function myFunction(){
 
-    var temp=prompt ("Please enter the temperature in fahrenheit")
+    var temp=parseInt(prompt ("Please enter the temperature in fahrenheit"));
+    var value=temp
+    do{
+    var temp=parseInt(prompt("Must be a whole number."))
+    }
+    while ((parseFloat(value) == parseInt(value)) && !isNaN(value)){
+    }
 
+    if (temp>65){
+        alert("Its a nice day I think i am going to have a glass of tea.")
+    }else if (temp>=55){
+        alert("its a little cold... better grab some coffee")
+    }else if (temp>=45){
+        alert("Wow.. its really cold got to have a BIG cup of coffee.")
+    }else{
+        alert("Seriously its "+temp+" degrees outside! I am just going to stay in my nice warm bed till it warms up.")
+    }
 }
 
 
