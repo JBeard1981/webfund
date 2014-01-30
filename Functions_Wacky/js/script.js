@@ -34,6 +34,7 @@ function myMale()
     alert("you shall forever be know as "+pName+" "+ myTitle[n] +" of the " + ofThe[m]+" " + myPlace[ranNum]);
     console.log ("Your Fantasy title is... " + pName + " " + myTitle[n] + " of the " + ofThe[m] + " " + myPlace[ranNum]);
 }
+
 function myFemale()
 {
     //this array is used to store the myTitle variable.
